@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Signup.css">
+
+    <script defer src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+
+<div class="sign-up">
+
+
+<section class="section-links">
+
+    <div class="div-form">
+            <div class="div-content" >
+            <img id="logo" src="../Images/Logo.png">
+
+                <img style="width: 32px; height: 32px" id="logoSvg" src="../Images/logoMobile.png">
+
+
+
+
+                <div class="div-headerForm" >
+
+                    <div class="header">
+                        <h1 class="signUpTitle">Sign Up</h1>
+                        <p>Start your 30-day free trial.</p>
+                    </div>
+
+                    <div class="div-form-content">
+                        <form class="form">
+                            <div class="form-field">
+                                <label for="name">Name*</label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                                <p class="hidden-p"></p>
+                            </div>
+                            <div class="form-field">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" placeholder="Enter your email" required>
+                                <p class="hidden-p"></p>
+                            </div>
+                            <div class="form-field">
+                                <label for="password">Password*</label>
+                                <input type="password" id="password" placeholder="Create a password" required>
+                                <p id="txtPassword">Must be at least 8 characters.</p>
+                            </div>
+
+                            <button type="button" id="BtnGetStarted">Get started</button>
+                            <button type="button" id="BtnGoogle"> <img src="../Images/GoogleLogo.png">Sign up with Google</button>
+
+                            <span>
+                                <p>Already have an account? <a href="../LogIn/Login.html">Log in</a></p>
+                            </span>
+
+                        </form>
+
+
+<!--                        <button id="BtnGetStarted">Get started</button>-->
+<!--                        <button id="BtnGoogle"> <img src="../Images/GoogleLogo.png">Sign up with Google</button>-->
+
+
+                    </div>
+
+
+                </div>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<section class="section-rechts">
+
+    <div class="div-rechts-container">
+
+        <div class="imgContainer">
+
+            <img id="contentImage">
+        </div>
+
+
+        <div class="section-rechts-text">
+            <div style="gap: 8px">
+            <h1 id="contentTitle"></h1>
+            <p id="contentText"></p>
+            </div>
+
+            <div class="paginatie">
+                <svg id="pijl-links" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M12.5 15L7.5 10L12.5 5" stroke="white" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                <div class="paginatie-dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <svg id="pijl-rechts" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M7.5 15L12.5 10L7.5 5" stroke="white" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+</div>
+</body>
+</html>
