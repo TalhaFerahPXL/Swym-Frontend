@@ -112,9 +112,8 @@ body{
     align-self: stretch;
     color: #101828;
 
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: -0.72px;
@@ -128,9 +127,8 @@ body{
 p {
     align-self: stretch;
     color: #667085;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
 
@@ -178,9 +176,8 @@ label {
     height: 20px;
     color: #344054; /* Vervangt var(--gray-700) */
     /* Tekst sm/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 20px; /* 142.857% */
     /* Andere stijlen kunnen hier worden toegevoegd */
@@ -216,9 +213,8 @@ input {
     color: #667085;
     margin-top: -1px;
     /* Text sm/Normal */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
 }
@@ -271,7 +267,7 @@ input {
     gap: 12px;
     align-self: stretch;
 
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     border-radius: 8px;
     border: 1px solid #D0D5DD;
     background: #FFF;
@@ -283,7 +279,6 @@ input {
     color: #344054;
 
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
 }
@@ -339,9 +334,8 @@ span p {
     text-align: center;
 
     /* Text xl/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 150% */
 
@@ -352,9 +346,8 @@ span p {
     text-align: center;
 
     /* Text md/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
     padding: 0 32px;
@@ -495,9 +488,8 @@ span p {
     .signUpTitle {
 
         color: #101828;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 28px;
-        font-style: normal;
         font-weight: 600;
         line-height: 32px;
         margin: 0;
@@ -505,9 +497,8 @@ span p {
     }
 
     label {
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
         line-height: 20px; /* 142.857% */
     }
@@ -524,6 +515,7 @@ span p {
         width: 100%;
         font-size: 20px;
         padding: 14px 18px;
+
     }
 
     span p {
@@ -542,15 +534,18 @@ span p {
     }
 
 
-    img[src="Images/Logo.png"] {
-        display: none; /* Verberg de afbeelding met de bron 'Images/Logo.png' */
-    }
+    /*img[src="../Images/Logo.png"] {*/
+    /*    display: none; !* Verberg de afbeelding met de bron 'Images/Logo.png' *!*/
+    /*}*/
 
-    /* Toon de SVG-afbeelding in plaats daarvan */
-    img[src="Images/Logo.png"] + svg {
-        display: inline-block;
+    /*!* Toon de SVG-afbeelding in plaats daarvan *!*/
+    /*img[src="Images/Logo.png"] + svg {*/
+    /*    display: inline-block;*/
 
-    }
+    /*}*/
+
+    #logo{display: none}
+    #logoSvg{display: block}
 
 
     /*iphone 12 PRO*/

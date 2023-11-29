@@ -15,6 +15,10 @@ body{
 
 }
 
+#logoSvg{
+    display: none;
+}
+
 #links{
     display: flex;
     flex-direction: column;
@@ -75,9 +79,8 @@ h1{
     color: #101828;
 
     /* Display md/Semibold */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 600;
     line-height: 44px; /* 122.222% */
     letter-spacing: -0.72px;
@@ -90,9 +93,9 @@ h3{
     color: #667085;
 
     /* Text md/Normal */
-    font-family: Inter;
+
     font-size: 16px;
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 24px; /* 150% */
 }
@@ -134,9 +137,9 @@ label{
     color: #344054;
 
     /* Text sm/Medium */
-    font-family: Inter;
+
     font-size: 14px;
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     line-height: 20px; /* 142.857% */
 }
@@ -148,7 +151,7 @@ label{
     gap: 6px;
     align-self: stretch;
     margin: 0;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
 }
 
@@ -193,9 +196,9 @@ input{
 
 .form-field-checkbox label.remember-label {
     color: #344054;
-    font-family: Inter;
+
     font-size: 14px;
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     line-height: 20px;
     /* 142.857% */
@@ -204,9 +207,9 @@ input{
 .form-field-checkbox a.forgot-password {
     text-decoration: none;
     color: #6941C6;
-    font-family: Inter;
+
     font-size: 14px;
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     line-height: 20px;
     /* 142.857% */
@@ -235,9 +238,9 @@ input{
     color: #FFF;
 
     /* Text md/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-style: normal;
+
     font-weight: 500;
     line-height: 24px; /* 150% */
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
@@ -255,7 +258,7 @@ input{
     gap: 12px;
     align-self: stretch;
 
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     border-radius: 8px;
     border: 1px solid #D0D5DD;
     background: #FFF;
@@ -267,7 +270,7 @@ input{
     color: #344054;
 
     font-size: 16px;
-    font-style: normal;
+
     font-weight: 500;
     line-height: 24px; /* 150% */
 }
@@ -287,9 +290,9 @@ input{
     color: #667085;
 
     /* Text sm/Normal */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-style: normal;
+
     font-weight: 400;
     line-height: 20px; /* 142.857% */
 }
@@ -297,9 +300,8 @@ input{
     color: #6941C6;
 
     /* Text sm/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 20px; /* 142.857% */
     text-decoration: none;
@@ -317,9 +319,8 @@ footer p{
     color: #667085;
 
     /* Text sm/Normal */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
 }
@@ -381,9 +382,8 @@ footer p{
     text-align: center;
 
     /* Text xl/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 150% */
 }
@@ -394,9 +394,8 @@ footer p{
     text-align: center;
 
     /* Text md/Medium */
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
     margin: 0;
@@ -471,5 +470,7 @@ footer p{
         display: none;
     }
 
+    #logoSvg{display: block}
+    #logo{display: none}
 
 }
