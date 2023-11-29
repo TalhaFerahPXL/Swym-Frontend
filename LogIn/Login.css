@@ -470,7 +470,7 @@ footer p{
         display: none;
     }
 
-    #logoSvg{display: block}
     #logo{display: none}
+    #logoSvg{display: block}
 
 }
