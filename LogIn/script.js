@@ -67,7 +67,10 @@ document.getElementById("BtnSignin").addEventListener("click", ()=>{
     };
 
 
-    fetch('https://localhost:7009/api/Login', requestOptions)
+
+
+        // https://localhost:7009/api/Login
+    fetch('https://briskapi-testing.azurewebsites.net/api/Login', requestOptions)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Netwerkrespons was niet oké');
@@ -77,7 +80,7 @@ document.getElementById("BtnSignin").addEventListener("click", ()=>{
         })
         .then(data => {
             console.log('Succesvol ingelogd:', data);
-            window.location.href = '../Home.html'
+            window.location.href = '../index.html'
 
         })
         .catch(error => {

@@ -120,7 +120,10 @@ function doFetch(Email, Name, Password) {
     };
 
 
-    fetch('https://localhost:7009/api/Register/Register', requestOptions)
+    //https://briskapi-testing.azurewebsites.net/api/Register/Register
+    //https://localhost:7009/api/Register/Register
+
+    fetch('https://briskapi-testing.azurewebsites.net/api/Register/Register', requestOptions)
         .then(response => {
             if (response.status === 200) {
 
