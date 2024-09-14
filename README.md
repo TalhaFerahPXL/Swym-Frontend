@@ -12,7 +12,7 @@ Frontend:
 
 Backend:
  * *.Net Core Web Api*
- * SQL Server Management Studio*
+ * *SQL Server Management Studio*
 
 
 # 📸 Screenshots
