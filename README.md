@@ -4,4 +4,7 @@ Het ontwerp is geleverd via Figma door mijn werkplekcoach en ik heb dit omgezet 
 
 
 # Screenshots
+<p align="center"><img src="Login.png" width="800"></p>
+<p align="center"><img src="Register.png" width="800"></p>
+
 
